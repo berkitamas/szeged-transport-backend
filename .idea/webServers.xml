@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="489b79f8-9c49-47b4-902e-b0d64b52c609" name="BTJ" url="https://webfejl.btj.hu/api">
+        <fileTransfer host="51.15.47.125" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/root" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" maxConnections="10" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
